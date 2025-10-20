@@ -3,7 +3,7 @@
   "buildCommand": "pnpm build",
   "outputDirectory": ".next",
   "installCommand": "pnpm install",
-  "rootDirectory": "apps/web", // 若 Next.js 在子目录，替换为实际路径；否则删掉
+  "rootDirectory": "apps/web",
   "functions": {
     "api/**/*": {
       "maxDuration": 10
