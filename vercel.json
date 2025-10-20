@@ -1,21 +1,5 @@
 {
-  "framework": "nextjs",
-  "buildCommand": "pnpm build",
-  "outputDirectory": ".next",
-  "installCommand": "pnpm install",
-  "functions": {
-    "api/**/*": {
-      "maxDuration": 10
-    }
-  },
-  "env": {
-    "NPM_CONFIG_PACKAGE_MANAGER": "pnpm",
-    "NODE_ENV": "production"
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ]
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install"
 }
